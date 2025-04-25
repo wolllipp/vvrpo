@@ -524,7 +524,6 @@ void filterAnimalsByAge(const vector<Animals>& animals) {
 
 int main() {
     
-    cout << "Hello World!" << endl;
     
     char cwd[1024];
        if (getcwd(cwd, sizeof(cwd))) {
