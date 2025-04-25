@@ -524,6 +524,7 @@ void filterAnimalsByAge(const vector<Animals>& animals) {
 
 int main() {
     
+    cout << "Hello World!" << endl;
     
     char cwd[1024];
        if (getcwd(cwd, sizeof(cwd))) {
@@ -605,9 +606,12 @@ int main() {
             case 9: filterAnimalsByAge(animals); break;
             case 0: cout << "Выход из программы." << endl; break;
             default: cout << "Неверный выбор!" << endl;
+                
         }
     } while (choice != 0);
 
+    
+    
     return 0;
 }
 
